@@ -1,0 +1,71 @@
+.section-two-e {
+  background: #222222;
+  padding: 4rem 4rem 0rem 4rem;
+}
+.customer-experience1 {
+  position: relative;
+  background: #2e2e2e;
+  width: 617px;
+  height: 600px;
+  border-radius: 50%;
+}
+.customer-experience div {
+  position: absolute;
+  z-index: 30;
+  left: 0px;
+  bottom: 0px;
+}
+.customer-experience-text {
+  padding-left: 5rem;
+}
+.customer-experience-text-1 h2 {
+  color: #fff;
+  /* width:30%; */
+  font-weight: 700;
+  font-family: Inter;
+  line-height: 38.73px;
+  width: 375px;
+  height: 39px;
+}
+.customer-experience-btn {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  background: transparent;
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 5px 10px;
+  text-transform: capitalize;
+  line-height: 16px;
+  font-weight: 500;
+}
+.customer-experience-text-1 p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  color: #fff;
+  padding: 3rem 0rem;
+}
+@media (max-width: 600px) {
+  .section-two {
+    padding: 4rem 0px 3rem 0px;
+  }
+  .customer-experience img {
+    width: 90%;
+  }
+  .customer-experience {
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    top: 25px;
+    left: 0;
+    overflow-x: hidden !important;
+    /* right:-28px */
+  }
+  .customer-experience-text {
+    padding-left: 0rem;
+    text-align: start;
+    width: 80%;
+    margin: auto;
+  }
+}

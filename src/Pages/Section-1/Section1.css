@@ -1,0 +1,71 @@
+.Hero-Section {
+  margin: 0px 7rem;
+}
+.SectionText {
+  margin-top: 6rem;
+  /* width: 50%; */
+}
+.SectionText h1 {
+  width: 90%;
+  /* margin: auto; */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #000;
+}
+.SectionText p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 31px;
+  letter-spacing: 0.02em;
+  /* width:85%; */
+  color: #494949;
+}
+.SectionImage {
+  position: relative;
+  /* width: 50%; */
+  z-index: -1;
+}
+img {
+  object-fit: contain;
+}
+.SectionImage ::before {
+  position: absolute;
+  content: "";
+  width: 500px;
+  height: 500px;
+  background: #fff8f5;
+  border-radius: 50%;
+  display: block;
+  left: -60px;
+  right: 0px;
+  top: 50px;
+  z-index: -1;
+}
+@media (min-width: 600px) and (max-width: 1120px) {
+  .SectionImage ::before {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 600px) {
+  .Hero-Section {
+    margin: 1rem 1rem 0rem 1rem;
+  }
+  .SectionText h1 {
+    width: 100%;
+    font-size: 2.5rem;
+  }
+  .SectionImage ::before {
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+  }
+  .SectionText {
+    margin-top: 0rem;
+    /* width: 50%; */
+  }
+}

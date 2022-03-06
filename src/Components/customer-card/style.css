@@ -1,0 +1,37 @@
+.customer-profile {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.customer-profile img {
+  object-fit: contain;
+  width: 100%;
+}
+.customer-detail {
+  text-align: left;
+  display: block;
+}
+.tag {
+  color: #0d019a;
+  background: #eef8ff;
+  font-size: 0.6rem;
+  vertical-align: middle;
+  padding: 0 0.3rem;
+  padding-top: 0.2rem;
+  margin-left: 1rem;
+}
+.vendor-tag {
+  color: #f0ffee;
+  background: #049a01;
+  font-size: 0.6rem;
+  vertical-align: middle;
+  padding: 0 0.3rem;
+  padding-top: 0.2rem;
+  margin-left: 1rem;
+}
+.customer-card {
+  width: 80%;
+  margin: 0 auto;
+}
