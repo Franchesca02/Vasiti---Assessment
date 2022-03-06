@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import CustomerCard from "../../Components/customer-card";
 import Customer from "../../assets/customer.png";
 import Fayemi from "../../assets/fayemi.png";
@@ -7,15 +7,15 @@ import Deyemi from "../../assets/deyemi.png";
 import Chisom from "../../assets/chisom.png";
 import Chidi from "../../assets/chidi.png";
 import "./style.css";
-import CreateStory from "../create-testimony";
+// import CreateStory from "../create-testimony";
 
 const SectionThree = () => {
-  const [showModal, setShowmodal] = useState(false);
+  // const [showModal, setShowmodal] = useState(false);
 
-  const toggleModal = () => {
-    console.log("no");
-    setShowmodal(!showModal);
-  };
+  // const toggleModal = () => {
+  //   console.log("no");
+  //   setShowmodal(!showModal);
+  // };
 
   return (
     <>
@@ -102,7 +102,7 @@ const SectionThree = () => {
           Exercitation veniam consequat sunt nostrud amet."
         />
       </div>
-      <CreateStory setShowmodal={() => setShowmodal(!showModal)} />
+      {/* <CreateStory setShowmodal={() => setShowmodal(!showModal)} /> */}
     </>
   );
 };
